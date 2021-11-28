@@ -1,0 +1,23 @@
+$icon-padding: 10vh;
+
+.Sidebar {
+    height: 100%;
+    width: 7%;
+    padding: 1% 0;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .PlayIconContainer {
+    margin-top: $icon-padding;
+    cursor: pointer; 
+
+  }
+
+  .VideoIconContainer {
+    margin-top: $icon-padding;   
+    cursor: pointer; 
+  }

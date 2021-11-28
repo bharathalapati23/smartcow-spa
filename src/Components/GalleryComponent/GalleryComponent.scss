@@ -1,0 +1,32 @@
+.DashboardRoot {
+    width: 93%;
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TopBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+.MyAccount {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.Logout {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #EE6363;
+    cursor: pointer;
+}

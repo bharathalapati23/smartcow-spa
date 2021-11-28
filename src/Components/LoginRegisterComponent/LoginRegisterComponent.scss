@@ -1,0 +1,19 @@
+.LoginRegisterRootContainer {
+    height: 100%;
+    width: 93%;
+    padding: 1% 2%;
+    color: #222222;
+    line-height: 33px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+  }
+
+.LoginRegisterContainer {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
