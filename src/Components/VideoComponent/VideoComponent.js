@@ -17,7 +17,7 @@ const VideoComponent = () => {
     const isLoggedIn = useSelector(state => state.login)
 
     React.useEffect(() => {
-        if(!isLoggedIn)
+        if (!isLoggedIn)
             history.push('/')
     }, [])
 
@@ -30,7 +30,8 @@ const VideoComponent = () => {
             <div className="TopBar">
                 <div className="MyAccount">Saying Hi to my customers</div>
                 <div>
-                    <CustomButton style={{ width: "123px", marginRight: '5px' }}>Cancel</CustomButton>
+                    <CustomButton style={{ width: "123px", marginRight: '5px' }}
+                        onClick={() => setSelectedImage(reduxSelectedImage)}>Cancel</CustomButton>
                     <CustomButton style={{ width: "123px" }}
                         onClick={() => {
                             dispatch(setDisplayPic(selectedImage))
